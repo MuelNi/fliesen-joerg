@@ -1,0 +1,57 @@
+.services-container {
+    background-color: #e0e0e0;
+    margin: 3rem auto;
+    .service-container {
+        background-color: white;
+        &>.col-12 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .service-description {
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .services-container {
+        padding: 3rem 8rem;
+        .service-description {
+            padding: 1rem;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .services-container {
+        padding: 3rem 8rem;
+        .service-description {
+            padding: 1rem;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .services {
+        padding: 3rem 8rem;
+        .service-description {
+            padding: 1rem;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    body {
+        .services-container {
+            padding: 3rem 11rem;
+        }
+        .services-description {
+            padding: 3rem;
+        }
+    }
+}

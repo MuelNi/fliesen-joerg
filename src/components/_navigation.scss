@@ -1,0 +1,132 @@
+#navigation {
+    background-color: #fff;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 0;
+    position:fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 700;
+}
+
+.navbar .navbar-brand {
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.navbar .navbar-brand img {
+    height: 100%!important;
+    width: auto!important
+}
+
+.navbar .navbar-nav {
+    float: right;
+    padding: 15px 0 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav li {
+    position: relative
+}
+
+.navbar .navbar-nav>li>a {
+    display: block;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 70px;
+    color: #333
+}
+
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a:focus,
+.navbar .navbar-nav a.active,
+.navbar .navbar-nav li:hover>a,
+.navbar .navbar-nav li.current_page_item>a {
+    color: #b91e2b
+}
+
+.no-touch .navbar-nav li.menu-item-has-children>a {
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.navbar-nav ul.sub-menu {
+    padding: 20px 0 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.navbar-nav .menu-item-66 ul.sub-menu,
+.navbar-nav .menu-item-67 ul.sub-menu {
+    min-width: 150px
+}
+
+.navbar-nav .menu-item-has-children:hover>ul.sub-menu {
+    max-height: 3000px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.navbar-nav ul.sub-menu li a {
+    background: #002b60;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 12px;
+    display: block
+}
+
+.navbar-nav ul.sub-menu li:last-child a {
+    padding-bottom: 10px
+}
+
+.navbar-nav ul.sub-menu li a:hover {
+    background: #24688d;
+    color: #fff!important
+}
+
+.navbar-toggle {
+    margin-top: 12px !important;
+}
+
+@media screen and (max-width:768px) {
+    .navbar .navbar-nav {
+        float: left;
+        padding-bottom: 15px;
+        
+    }
+
+    .navbar .navbar-brand {
+        height: 70px;
+
+    }
+
+    .navbar .navbar-nav>li>a {
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

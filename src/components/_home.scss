@@ -1,0 +1,64 @@
+.container-fluid-bg {
+    background-image: url("img/home_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.container-home-box-transp {
+    background: rgba(224, 239, 249, 0.42);
+    background: -moz-linear-gradient(-45deg, rgba(224, 239, 249, 0.42) 0%, rgba(181, 198, 208, 0.68) 22%, rgba(215, 224, 230, 1) 49%, rgba(216, 225, 231, 1) 50%, rgba(242, 246, 248, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(224, 239, 249, 0.42)), color-stop(22%, rgba(181, 198, 208, 0.68)), color-stop(49%, rgba(215, 224, 230, 1)), color-stop(50%, rgba(216, 225, 231, 1)), color-stop(100%, rgba(242, 246, 248, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(224, 239, 249, 0.42) 0%, rgba(181, 198, 208, 0.68) 22%, rgba(215, 224, 230, 1) 49%, rgba(216, 225, 231, 1) 50%, rgba(242, 246, 248, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(224, 239, 249, 0.42) 0%, rgba(181, 198, 208, 0.68) 22%, rgba(215, 224, 230, 1) 49%, rgba(216, 225, 231, 1) 50%, rgba(242, 246, 248, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(224, 239, 249, 0.42) 0%, rgba(181, 198, 208, 0.68) 22%, rgba(215, 224, 230, 1) 49%, rgba(216, 225, 231, 1) 50%, rgba(242, 246, 248, 1) 100%);
+    background: linear-gradient(135deg, rgba(224, 239, 249, 0.42) 0%, rgba(181, 198, 208, 0.68) 22%, rgba(215, 224, 230, 1) 49%, rgba(216, 225, 231, 1) 50%, rgba(242, 246, 248, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0eff9', endColorstr='#f2f6f8', GradientType=1);
+}
+
+.home-box-bg {
+    background-image: url("img/home_cars.png");
+    height: 559px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.home:hover .overlay {
+    opacity: 1;
+}
+
+.container {
+    width: 75%;
+    max-width: 1500px;
+}
+
+.container-overline {
+    margin: auto;
+}
+
+.container-overline h1,
+h2,
+h3 {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-overline h1 {
+    font-size: 48px;
+}
+
+.container-overline h2 {
+    font-size: 36px;
+}
+
+.container-fluid-bg-mobile {
+    background-image: url("img/home_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

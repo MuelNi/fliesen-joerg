@@ -1,0 +1,15 @@
+{
+  "name": "fliesen-joerg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./src/index.scss ./dist/style.css",
+    "sass-watch": "sass ./src/index.scss ./dist/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
