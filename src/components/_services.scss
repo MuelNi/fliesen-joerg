@@ -1,57 +1,86 @@
 .services-container {
-    background-color: #e0e0e0;
-    margin: 3rem auto;
-    .service-container {
-        background-color: white;
-        &>.col-12 {
-            padding-left: 0;
-            padding-right: 0;
-        }
-        .service-description {
-            text-align: center;
-            padding: 1rem;
-        }
+  background-color: #e0e0e0;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .service-container {
+    background-color: white;
+    & > .col-12 {
+      padding-left: 0;
+      padding-right: 0;
     }
+    .service-description {
+      text-align: center;
+      padding: 2rem;
+      h3 {
+        word-wrap: break-word;
+      }
+      ul {
+        list-style-position: inside;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    .services-container {
-        padding: 3rem 8rem;
-        .service-description {
-            padding: 1rem;
-        }
+  .services-container {
+    padding: 3rem 8rem;
+    .service-description {
+      padding: 1rem;
+      h3 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .services-container {
-        padding: 3rem 8rem;
-        .service-description {
-            padding: 1rem;
-        }
+  .services-container {
+    padding: 3rem 8rem;
+    .service-description {
+      padding: 1rem;
+      h3 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
+  }
 }
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .services {
-        padding: 3rem 8rem;
-        .service-description {
-            padding: 1rem;
-        }
+  .services-container {
+    padding: 3rem 8rem;
+    .service-description {
+      padding: 1rem;
+      h3 {
+        font-size: 1.5vw;
+      }
+      p {
+        font-size: 1vw;
+      }
     }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    body {
-        .services-container {
-            padding: 3rem 11rem;
-        }
-        .services-description {
-            padding: 3rem;
-        }
+  .services-container {
+    padding: 3rem 14rem;
+  }
+  .services-description {
+    padding: 3rem;
+    h3 {
+      font-size: 1.5vw;
     }
+    p {
+      font-size: 0.75vw;
+    }
+  }
 }
